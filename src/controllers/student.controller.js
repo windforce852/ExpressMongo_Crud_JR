@@ -1,4 +1,11 @@
+const getLogger = require("../common/logger")
+const getLogg = require("../common/logger")
+
+const logger = getLogger(__filename)
+
+
 const getAllStudents = (req, res) => {
+    logger.info('find all students')
     res.json([])
 }
 

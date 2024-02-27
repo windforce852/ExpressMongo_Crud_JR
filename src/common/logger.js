@@ -30,4 +30,4 @@ const getLogger = (filename) => {
     return logger
 }
 
-module.exports = getLogger()
+module.exports = getLogger
